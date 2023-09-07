@@ -1,0 +1,14 @@
+{
+    "ua": {
+        "header": {
+            "stomatology": "Стоматологія",
+            "cosmetology": "Косметологія"
+        }
+    },
+    "en": {
+        "header": {
+            "stomatology": "Stomatology",
+            "cosmetology": "Cosmetology"
+        }
+    }
+}
