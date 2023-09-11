@@ -1,5 +1,15 @@
-header {
-    display: grid;
+@import "./variables.scss";
+
+body {
+    font-family: $main-font-family;
+}
+
+.desktop-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
     .header-item {
 
     }
