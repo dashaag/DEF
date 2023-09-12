@@ -1,9 +1,15 @@
 h1 {
   font-size: 40px;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
 }
 
 p.paragraph-1 {
@@ -12,8 +18,21 @@ p.paragraph-1 {
 
 p.paragraph-2 {
   font-size: 20px;
+  font-weight: 300;
 }
 
 p.paragraph-3 {
   font-size: 30px;
+}
+
+p.paragraph-4 {
+  font-size: 13px;
+}
+
+p.paragraph-5 {
+  font-size: 18px;
+}
+
+p.display-1 {
+  font-size: 45px;
 }/*# sourceMappingURL=text.css.map */

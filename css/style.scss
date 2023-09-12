@@ -1,16 +1,153 @@
 @import "./variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 body {
     font-family: $main-font-family;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
 }
 
 .desktop-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+}
 
+.initial-section {
+    height: 100vh;
+    background: radial-gradient(50% 50% at 50% 50%, $light-blue 0%, $light-blue 100%);
+    position: relative;
 
-    .header-item {
+    .content {
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
 
+.text-section {
+    padding-left: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+
+    p {
+        margin-top: 30px;
+    }
+}
+
+.image-section {
+    width: 50%;
+    align-self: flex-end;
+
+    img {
+        width: 100%;
+    }
+}
+
+.about-us-section {
+    padding: 80px 0;
+
+    .image-section {
+        display: flex;
+        width: 60%;
+
+        img {
+            width: 500px;
+            margin: auto;
+        }
+    }
+}
+
+.carousel-section {
+    height: 600px;
+    overflow: hidden;
+
+    .carousel-item {
+        height: 100%;
+    }
+
+    .carousel {
+        height: 100%;
+    }
+}
+
+.team-section {
+    padding: 80px 140px;
+
+    h2 {
+        margin-bottom: 60px;
+    }
+
+    .team {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        row-gap: 60px;
+
+        .team-member {
+            .team-member-img {
+                border-radius: 25px 25px 0 0;
+                height: 200px;
+                width: 250px;
+                overflow-y: hidden;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .name {
+                margin: 5px 0 1px;
+            }
+        }
+    }
+}
+
+footer {
+    padding: 35px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .social-media {
+        margin-top: 25px;
+        align-items: center;
+        width: 50%;
+
+        a {
+            margin-right: 7px;
+        }
+    }
+
+    .info {
+        display: flex;
+
+        .info-column {
+            &:first-of-type {
+                margin-right: 65px;
+            }
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+
+            .text {
+                margin: 5px 0 0 10px;
+            }
+        }
+
+        hr {
+            width: 85px;
+            margin: 25px auto;
+        }
     }
 }
