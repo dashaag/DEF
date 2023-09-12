@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu";
+}
+
+.initial-section {
+  background: url("../img/cosmetology-background.jfif") rgba(97, 65, 73, 0.831372549);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 100vh;
+}
+.initial-section header {
+  color: #FFFFFF;
+}
+.initial-section .content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+  margin-left: 200px;
+}
+.initial-section .content p {
+  margin-top: 20px;
+}/*# sourceMappingURL=cosmetology.css.map */

@@ -17,6 +17,7 @@ a {
     height: 100px;
     width: 100%;
     position: absolute;
+    text-transform: uppercase;
 }
 
 .initial-section {
@@ -56,6 +57,11 @@ a {
 .about-us-section {
     padding: 80px 0;
 
+    .headline {
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+
     .image-section {
         display: flex;
         width: 60%;
@@ -82,6 +88,10 @@ a {
 
 .team-section {
     padding: 80px 140px;
+
+    .headline {
+        text-transform: uppercase;
+    }
 
     h2 {
         margin-bottom: 60px;
